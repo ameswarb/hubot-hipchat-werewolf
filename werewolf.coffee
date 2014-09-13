@@ -38,73 +38,73 @@ roles = [
         name: 'villager',
         min: 0,
         max: 3,
-        description: 'Villagers team. Does nothing at night, knows nothing. Win if a werewolf is killed.'
+        description: tpl.roles.villager.desc
     },
     {
         name: 'werewolf',
         min: 2,
         max: 2,
-        description: 'Werewolves team. Know who each other are. Win if no werewolves are killed.'
+        description: tpl.roles.werewolf.desc
     },
     {
         name: 'seer',
         min: 0,
         max: 1,
-        description: "Villagers team. May look at two roles from the center or another player's role."
+        description: tpl.roles.seer.desc
     },
     {
         name: 'robber',
         min: 0,
         max: 1,
-        description: "May trade roles with another player and then view that role. Robber is the new role. Whoever winds up with the Robber card is on the Villagers team."
+        description: tpl.roles.robber.desc
     },
     {
         name: 'troublemaker',
         min: 0,
         max: 1,
-        description: "Villagers team. May swap two other players' roles."
+        description: tpl.roles.troublemaker.desc
     },
     {
         name: 'tanner',
         min: 0,
         max: 1,
-        description: "Hates his life, wants to be mistaken for a werewolf. He alone wins if he is killed."
+        description: tpl.roles.tanner.desc
     },
     {
         name: 'drunk',
         min: 0,
         max: 1,
-        description: "Swaps his role with a role from the center. Is not aware of his new role or what team that role is on."
+        description: tpl.roles.drunk.desc
     },
     {
         name: 'hunter',
         min: 0,
         max: 1,
-        description: "Villagers team. If he is killed, whoever he targeted dies as well."
+        description: tpl.roles.hunter.desc
     },
     {
         name: 'mason',
         min: 0,
         max: 2,
-        description: "Villagers team. Masons know who each other are. (if both roles are owned by players)"
+        description: tpl.roles.mason.desc
     },
     {
         name: 'insomniac',
         min: 0,
         max: 1,
-        description: "Villagers team. Views her card again after the night phase to see if it has changed."
+        description: tpl.roles.insomniac.desc
     },
     {
         name: 'minion',
         min: 0,
         max: 1,
-        description: "Werewolves team. Tries to take the fall for the werewolves. Wins if no werewolves are killed, even if he himself died."
+        description: tpl.roles.minion.desc
     },
     {
         name: 'doppelganger',
         min: 0,
         max: 1,
-        description: "Looks at another player's role, then assumes and is on the team of that role. Also any night phase actions the copied role would do."
+        description: tpl.roles.doppelganger.desc
     }
 ]
 
